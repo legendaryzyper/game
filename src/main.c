@@ -30,7 +30,7 @@ void update(void) {
 }
 
 void render(void) {
-	glClearColor(0.40f, 0.87f, 0.97f, 1.0f);
+	glClearColor(0.07f, 0.13f, 0.17f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 
